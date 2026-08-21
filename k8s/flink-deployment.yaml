@@ -24,9 +24,9 @@ metadata:
   name: oracle-dwaf-to-kafka
   namespace: flink-cdc-demo
 spec:
-  image: flink:1.19.1-scala_2.12-java17
+  image: flink:1.20.5-scala_2.12-java17
   imagePullPolicy: IfNotPresent
-  flinkVersion: v1_19
+  flinkVersion: v1_20
   serviceAccount: flink-cdc-job
   flinkConfiguration:
     taskmanager.numberOfTaskSlots: "1"

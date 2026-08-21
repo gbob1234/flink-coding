@@ -12,9 +12,9 @@ Expected output:
 
 Pinned versions:
 
-- Apache Flink 1.19.1
-- Apache Flink CDC Oracle connector 3.5.0
-- Flink Kafka connector 3.3.0-1.19
+- Apache Flink 1.20.5
+- Apache Flink CDC Oracle connector 3.6.0-1.20
+- Flink Kafka connector 3.4.0-1.20
 - Apache Kafka 3.9.1 in single-node KRaft mode
 - Oracle Database XE 21c test image
 
